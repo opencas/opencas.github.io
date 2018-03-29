@@ -4,7 +4,7 @@
   "description": "Website of OpenCAS",
   "private": true,
   "hexo": {
-    "version": "3.3.9"
+    "version": "3.7.0"
   },
   "keywords": [
     "OpenCAS",
@@ -12,14 +12,13 @@
     "Mirrors"
   ],
   "dependencies": {
-    "hexo": "^3.3.9",
+    "hexo": "^3.7.0",
     "hexo-beautify": "^1.0.2",
     "hexo-browsersync": "^0.2.0",
     "hexo-generator-archive": "^0.1.3",
     "hexo-generator-category": "^0.1.3",
     "hexo-generator-feed": "^1.2.0",
     "hexo-generator-tag": "^0.1.2",
-    "hexo-generator-type": "^0.1.4",
     "hexo-imagemin": "^0.1.0",
     "hexo-renderer-ejs": "^0.1.0",
     "hexo-renderer-marked": "^0.2.6",
