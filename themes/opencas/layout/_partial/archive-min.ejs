@@ -1,0 +1,9 @@
+<div class="row">
+  <ul class="index-list list-unstyled">
+    <% if (site.posts.length){ %>
+      <% site.posts.sort('date', -1).limit(10).each(function(post){ %>
+        <%- partial('archive-post-min', {post: post}) %>
+      <% }) %>
+    <% } %>
+</ul>
+</div>

@@ -1,0 +1,26 @@
+<div class="row mb-4">
+  <div class="col-md-12 pl-0">
+    <div class="card">
+      <div class="card-header projects-title">
+        <%- partial('project/title') %>
+      </div>
+      <div class="card-body">
+        <div class="projects-meta">
+          <ul class="blog-info mt-0">
+            <li><i class="fas fa-globe"></i> <%= project.language %></li>
+            <li><i class="fas fa-code-branch"></i> <%= project.version %></li>
+            <li><i class="fas fa-hands-helping"></i> <%= project.author %></li>
+            <li><i class="fas fa-calendar"></i> <%= date(project.time, 'YYYY-MM-DD') %></li>
+          </ul>
+        </div>
+        <div class="projects-content">
+          <%- project.content %>
+        </div>
+      </div>
+      <div class="card-footer projects-link">
+        <a href="<%= project.url %>"><i class="fab fa-github"></i> <%= project.url %></a> | 
+        <a href="<%= project.issue %>"><i class="fas fa-question-circle"></i> <%= project.issue %></a>
+      </div>
+    </div>
+  </div>
+</div>

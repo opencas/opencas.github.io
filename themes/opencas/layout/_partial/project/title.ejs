@@ -1,0 +1,17 @@
+<% if (project.title) { %>
+    <h3 name="<%= project.ref %>">
+        <%= project.title %>
+        <small>
+            <% if (project.status.toLowerCase() === "open"){ %>
+            <span class="badge badge-success">
+            <% } else if (project.status.toLowerCase() === "closed"){ %>
+            <span class="badge badge-danger">
+            <% } else if (project.status.toLowerCase() === "finish"){ %>
+            <span class="badge badge-info">
+            <% } else { %>
+            <span class="badge badge-warning">
+        <% } %>
+        <%= project.status %></span>
+        </small>
+    </h3>
+<% }%>

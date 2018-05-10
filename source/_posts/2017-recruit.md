@@ -5,14 +5,12 @@ tags:
 - 试用
 - 笔记本
 - 硬件
-thumbnail: postImgs/ls-salt-plan.png
+thumbnail: ls-salt-plan.png
 lede: "为丰富同学们的校园生活，参与开源项目， Linux Story 社区携手中科院开源协会提供一批笔记本样机供同学们“折腾”"
 featured: true
 ---
 
-<div class="image-strip">
-{% img /postImgs/ls-salt-plan.png  %}
-</div>
+![ls-salt-plan](2017-recruit/ls-salt-plan.png)
 
 ## 活动介绍
 

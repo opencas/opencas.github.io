@@ -13,54 +13,50 @@ timezone: Asia/Shanghai
 # Header Menu
 menu:
   HOME: /
-  ARCHIVES: /archives/
+  MESSAGES: /messages/
+  EVENTS: /
   PROJECTS: /projects/
   ABOUT: /about/
   MIRRORS: "//mirrors.ucas.ac.cn"
+
+types:
+  - events
+  - projects
+
+mypage:
+  /about/: about
    
 rss: /atom.xml
 
 # Content
 excerpt_link: 阅读更多
-fancybox: true # whether or not to load the fancybox library
 
 # Integrations
 disqus_shortname: opencas
-google_analytics:
+baidu_analytics: https://hm.baidu.com/hm.js?9e99eefab501de04892c40d543b6fc64
 swiftype_install_key: 
 
-# Social
-social:
-  github: https://github.com/opencas
-  weibo: https://weibo.com/osclubofcas
-  qq: https://jq.qq.com/?_wv=1027&k=5xStlqg
-  envelope-o: mailto:admin@opencas.org
-  rss: atom.xml
-  
-# Miscellaneous
-color_scheme: blue   # options: blue, gray, green, orange, red, turquoise
 favicon: /favicon.ico # path from root of hexo site
 default_author: OpenCAS
 
-about: 中国科学院大学开源软件协会（OpenCAS）创建于2006年，是中国科学院研究生组成的开源技术社区。协会由中国科学院大学校团委指导，中国科学院大学网络中心提供支持。<br/>协会秉承“开放·自由·分享”的理念聚集开源爱好者，分享开源技术，传递开源理念，为科学院的同学创建平台参与开源项目。协会现阶段面向中国科学院及其他机构个人提供开源镜像服务，并在科院体系内宣传开源文化。
+about: 中国科学院大学开源软件协会（OpenCAS）创建于2006年，是中国科学院研究生组成的开源技术社区。协会由中国科学院大学校团委指导，中国科学院大学网络中心提供支持。<br/><br/>协会秉承“开放·自由·分享”的理念聚集开源爱好者，分享开源技术，传递开源理念，为科学院的同学创建平台参与开源项目。协会现阶段面向中国科学院及其他机构个人提供开源镜像服务，并在科院体系内宣传开源文化。
 email: admin@opencas.org
-qq: 586038465
 qqgroup: https://jq.qq.com/?_wv=1027&k=5xStlqg
 
  
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.opencas.org
+url: http://localhost:4000 # https://www.opencas.org
 root: /
-permalink: :year/:month/:day/:title/
+permalink: messages/:year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+tag_dir: messages/tags
+archive_dir: messages
+category_dir: messages/categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -72,7 +68,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: false
 highlight:
@@ -87,9 +83,6 @@ category_map:
 tag_map:
 
 # Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 
@@ -99,9 +92,7 @@ per_page: 10
 pagination_dir: page
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: corporate
+theme: opencas
 
 # Deployment
 imagemin:

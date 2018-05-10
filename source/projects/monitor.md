@@ -1,4 +1,5 @@
 title: OpenCAS镜像任务管理与监控平台
+ref: mirrors-monitor
 status: Open
 language: N/A
 version: N/A

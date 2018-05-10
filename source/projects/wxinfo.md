@@ -1,4 +1,5 @@
 title: OpenCAS信息助手
+ref: wxinfo
 status: Open
 language: JavaScript
 version: 0.1.170909

@@ -1,0 +1,30 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="<%= config.description %>">
+    <meta name="keywords" content="<%= config.keywords %>">
+    <meta name="author" content="OpenCAS">
+    <meta charset="UTF-8">
+    <%
+    var title = page.title;
+    if (is_archive()) {
+      title = 'Archives';
+      if (is_month())
+          title += ': ' + page.year + '/' + page.month;
+      else if (is_year())
+          title += ': ' + page.year;
+    } else if (is_category()) {
+      title = 'Category: ' + page.category;
+    } else if (is_tag()){
+      title = 'Tag: ' + page.tag;
+    }
+    %>
+    <title><% if (title) { %><%= title %> | <% } %><%= config.title %></title>
+    <link rel="icon" href="/favicon.ico">
+    <% if (theme.rss) { %>
+    <link rel="alternative" href="<%- theme.rss %>" title="<%= config.title %>" type="application/atom+xml">
+    <% } %>
+    <%- css('assets/css/bootstrap.min.css') %>
+    <%- css('assets/css/mirrors.css') %>
+    <%- css('assets/css/opencas.css') %>
+    <%- partial('baidu-analytics') %>
+</head>

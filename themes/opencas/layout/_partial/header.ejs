@@ -1,0 +1,19 @@
+<header class="container" style="padding: 20px 0;">
+    <nav class="navbar navbar-light navbar-expand-lg justify-content-between">
+        <a class="navbar-brand" href="/">
+            <img src="<%- url_for('assets/imgs/logo.png') %>" alt="logo" class="img-fluid" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto">
+                <% for (var i in theme.menu) { %>
+                  <li class="nav-item <%= url_for(theme.menu[i]) == (url_for(path).lastIndexOf('/') == url_for(path).indexOf('/') ? '/' : url_for(path).substring(0, url_for(path).split('/', 2).join('/').length + 1)) ? 'active' : '' %>">
+                      <a class="nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+                  </li>
+                <% } %>
+            </ul>
+        </div>
+    </nav>
+</header>

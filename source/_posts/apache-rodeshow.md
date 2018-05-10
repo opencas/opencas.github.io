@@ -5,7 +5,7 @@ tags:
 - Apache
 - 分享
 - 路演
-thumbnail: postImgs/apache8.jpg
+thumbnail: apache8.jpg
 lede: "2015年阿帕奇基金会路演(Apache Rodeshow)在中科院中关村校区成功举办，嘉宾如云，干货满满"
 featured: true
 ---
@@ -25,59 +25,43 @@ featured: true
 
 
 * **主题演讲**：阿帕奇主席等6位大神涵盖了阿帕奇的社区经营理念（ApacheWay），云计算，大数据，开源软件开发，项目孵化，开源软件的成功应用场景（全球最大的英雄联盟游戏）。
-<div class="post-img"   >
-{% img  /postImgs/apache1.jpg  %}
-</div>
+![apache1](apache-rodeshow/apache1.jpg)
 
 <hr/>
 * **高峰对话**：大神们火花四射地针对“社区主导开发”（Community-Led Development），探讨国际社区的实践与中国开源运动的思考，期盼与挑战。同时针锋相对地讨论国际开源社区多为白人男性主宰，如何鼓励多元化的不同族群及女性参与。
 
-<div class="post-img"   >
-{% img  /postImgs/apache2.jpg  %}
-</div>
+![apache2](apache-rodeshow/apache2.jpg)
 
 <hr/>
 
 * **女性专场**：6位国内开源女神分享女性参与开源，撑起半边天的心路历程。
 女神中的女神-微软全球开发平台事业部的高级副总裁潘正磊Julia，身为在微软最高职位的华人女性，在10月25日上午作了“开源软件开发”的主题演讲，分享她作为2004年起就开始参与微软开源开放之路上的心得，以及她一力推动.Net Core开源的经验。现场观众不停地就微软参与开源提出各种问题和建议， 提问数目之多，听众反馈之激烈堪称本次大会之最。
 
-<div class="post-img"   >
-{% img  /postImgs/apache3.jpg  %}
-</div>
+![apache3](apache-rodeshow/apache3.jpg)
 
 <hr/>
 
 
 * **大数据金牌训练营（AMPCamp）**：连教带做，老师现场指导让你快速上手Apache Spark技术。
 
- <div class="post-img"   >
-{% img  /postImgs/apache4.jpg  %}
-</div>
+ ![apache4](apache-rodeshow/apache4.jpg)
 
 * **圆桌论坛**：让国内外社区30余位领袖，分别就云计算，大数据，开源软件开发，及开源社区治理进行深入而激烈地交流。
 
- <div class="post-img"   >
-{% img  /postImgs/apache6.jpg  %}
-</div>
+ ![apache6](apache-rodeshow/apache6.jpg)
   
 
 * **惊喜** 在1024程序猿/媛节，C#/TypeScript之父Anders Hejlsberg在高峰圆桌对话分享了他如何在微软推动开源的经验，与Apache软件基金会董事们的和来自中西方开源领袖们进行了深入而激烈的交流。他还亲临大会闭幕式现场，发表简短演说，并接受问答。现场气氛火爆，堪称完美句点！
 
- <div class="post-img"   >
-{% img  /postImgs/apache7.jpg  %}
-</div>
+ ![apache7](apache-rodeshow/apache7.jpg)
 
 <hr/>
 
 最后的合影
-<div class="post-img"   >
-{% img  /postImgs/apache8.jpg  %}
-</div>
+![apache8](apache-rodeshow/apache8.jpg)
 
 
  
 <hr/>
 活动详情请访问 http://www.kaiyuanshe.cn/index.php?option=com_content&view=article&id=89
 路演的幻灯片，速记内容，视频请访问http://www.kaiyuanshe.cn/portal/thread/45.html#56
-
-<hr/>

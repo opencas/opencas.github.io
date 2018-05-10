@@ -1,0 +1,14 @@
+<li>
+  <% if (post.link) { %>
+  <a href="<%- url_for(post.link) %>" target="_blank" itemprop="url"><%= post.title || post.link %></a>
+  <div>
+    <%- partial('post/date', {class_name: 'archive-article-date', date_format: 'YYYY/MM/DD'}) %>
+  </div>
+  <% } else if (post.title) { %>
+  <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+  <div>
+    <%- partial('post/date', {class_name: 'archive-article-date', date_format: 'YYYY/MM/DD'}) %>
+  </div>
+  <% } %>
+  <hr>
+</li>

@@ -1,4 +1,5 @@
 title: OpenCAS 镜像帮助文档补全计划
+ref: mirrors-doc
 status: Open
 language: reStructuredText
 version: 0.1Alpha

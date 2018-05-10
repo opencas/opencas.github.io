@@ -1,0 +1,24 @@
+<li>
+  <% if (project.title) { %>
+  <a href="/projects/#<%- url_for(project.ref).slice(1) %>"><%= project.title %></a>
+  <small>
+    <% if (project.status.toLowerCase() === "open"){ %>
+      <span class="badge badge-success">
+    <% } else if (project.status.toLowerCase() === "closed"){ %>
+      <span class="badge badge-danger">
+    <% } else if (project.status.toLowerCase() === "finish"){ %>
+      <span class="badge badge-info">
+    <% } else { %>
+      <span class="badge badge-warning">
+    <% } %>
+        <%= project.status %>
+      </span>
+  </small>
+  <div>
+    <time datetime="<%= date_xml(project.time) %>" itemprop="datePublished">
+    <%= date(project.time, 'YYYY-MM-DD') %>
+    </time>  
+  </div>
+  <% } %>
+  <hr>
+</li>

@@ -1,0 +1,17 @@
+<% if (site.categories.length){ %>
+<div class="widget-wrap">
+  <div class="widget">
+    <ul class="sidebar-categories mb-4">
+      <% site.categories.forEach(function(cat){ %>
+    	<li>
+            <a href="<%= url_for(cat.path) %>">
+                <i class="fas fa-angle-right"></i>
+                <%= cat.name %>
+            </a>
+            <span class="badge badge-light"><%= cat.length %> </span>
+    	</li>
+      <% }); %>
+    </ul>
+  </div>
+</div>
+<% } %>

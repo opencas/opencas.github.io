@@ -1,0 +1,24 @@
+<footer>
+  <div class="pre-footer">
+    <div class="container">
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-8">
+          <p class="footer-text"><%- theme.about %></p>
+        </div>
+        <div class="col-lg-4 text-center">
+          <img src="/assets/imgs/opencas_logo.png" style="max-height: 180px" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="deeper-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8" style="padding-top: 5px;">
+          Copyright &copy; <%= date(new Date(), 'YYYY') %> <%= config.author %> | <a href="http://www.miitbeian.gov.cn/">京ICP备09112257号-87</a> | <a href="https://github.com/opencas/siteDeployer">本站源码</a>
+        </div>
+        <%- partial('_partial/social') %>
+      </div>
+    </div>
+  </div>
+</footer>
