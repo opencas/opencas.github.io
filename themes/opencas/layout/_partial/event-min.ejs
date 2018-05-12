@@ -1,0 +1,14 @@
+<li>
+  <% if (event.title) { %>
+  <a href="/events/#<%- url_for(event.ref).slice(1) %>"><%= event.title %></a>
+  <small>
+    <span class="badge"></span>
+  </small>
+  <div>
+    <time class="time" datetime="<%= date_xml(event.start_time) %>" itemprop="datePublished">
+    <%= date(event.start_time, 'YYYY-MM-DD HH:mm') %>
+    </time>  
+  </div>
+  <% } %>
+  <hr>
+</li>

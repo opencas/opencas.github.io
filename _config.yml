@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 menu:
   HOME: /
   MESSAGES: /messages/
-  EVENTS: /
+  EVENTS: /events/
   PROJECTS: /projects/
   ABOUT: /about/
   MIRRORS: "//mirrors.ucas.ac.cn"

@@ -1,0 +1,48 @@
+<div class="event row mb-4">
+  <div class="col-md-9 pl-0">
+    <div class="event-title">
+      <%- partial('event/title') %>
+    </div>
+    <div class="event-body">
+      <div class="event-meta">
+        <ul class="blog-info event-info mt-0 pt-1 mb-1">
+          <% if (event.place) { %>
+          <li class="text-info"><i class="fas fa-map-marker"></i> <%= event.place %></li>
+          <% } %>
+          <% if (event.start_time) { %>
+          <li class="text-success"><i class="fas fa-calendar"></i> <time class="time" datetime="<%= date_xml(event.start_time) %>"><%= date(event.start_time, 'YYYY-MM-DD HH:mm') %></time></li>
+          <% } %>
+        </ul>
+        <ul class="blog-info event-info mt-0 pb-2">
+          <% if (event.sponsor) { %>
+          <li><i class="fas fa-info-circle"></i> <%= event.sponsor %></li>
+          <% } %>
+          <% if (event.guest != null) { %>
+          <li><i class="fas fa-chalkboard-teacher"></i> <%= event.guest %></li>
+          <% } %>
+        </ul>
+      </div>
+      <div class="event-content">
+        <%- event.content %>
+      </div>
+      <div>
+        <ul class="blog-info event-info mt-0">
+          <% if (event.event_url) { %>
+          <li><a href="<%= event.event_url %>"><i class="fas fa-globe"></i> 原文链接</a></li>
+          <% } %>
+          <% if (event.wechat_url) { %>
+          <li><a href="<%= event.wechat_url %>"><i class="fab fa-weixin"></i> 微信宣传</a></li>
+          <% } %>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <% if (event.poster) { %>
+    <%- image_tag(event.path.substr(0, event.path.length - 5) + "/" + event.poster, {class: "img-responsive", style: "max-width: 100%"}) %>
+    <% } %>
+  </div>
+  <div class="col-md-12 pl-0">
+    <hr class="blog-post-sep">
+  </div>
+</div>

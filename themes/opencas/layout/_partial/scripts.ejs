@@ -10,6 +10,28 @@ $(document).ready(function() {
         placement: "top",
         html: true
     });
+    $.each($('.event .time'), function (index, time) {
+        var time = $(this).attr('datetime');
+        var badge = $(this).parents('.event').find('.badge');
+        if (Date.parse(time) > new Date()) {
+            badge.text("Upcoming");
+            badge.addClass('badge-success');
+        } else {
+            badge.text("Finished");
+            badge.addClass('badge-warning');
+        }
+    });
+    $.each($('.events-list .time'), function (index, time) {
+        var time = $(this).attr('datetime');
+        var badge = $(this).parents('.events-list').find('.badge');
+        if (Date.parse(time) > new Date()) {
+            badge.text("Upcoming");
+            badge.addClass('badge-success');
+        } else {
+            badge.text("Finished");
+            badge.addClass('badge-warning');
+        }
+    });
 });
 </script>
 <%- partial('disqus') %>

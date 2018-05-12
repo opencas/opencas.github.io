@@ -195,3 +195,25 @@ code {
     white-space: pre-wrap;
     word-wrap: break-word;
 }
+
+.event-info li {
+    font-size: 1rem;
+}
+
+.event-content {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.event-content img {
+    max-width: 80%;
+}
+
+.event-content ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.event-link,
+.event-link a {
+    font-size: 1rem;
+}
