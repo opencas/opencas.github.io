@@ -9,19 +9,19 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<%- url_for('assets/imgs/slides/slide1.jpg') %>" alt="openfourm">
+                        <img class="img-responsive center-block" src="<%- url_for('assets/imgs/slides/slide1.jpg') %>" alt="openfourm">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>中科院开源论坛</h5>
+                            <h5>2018年软件自由日合影</h5>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="<%- url_for('assets/imgs/slides/slide2.jpg') %>" alt="sfd">
+                        <img class="img-responsive center-block" src="<%- url_for('assets/imgs/slides/slide2.jpg') %>" alt="sfd">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>2015年SFD(软件自由日)</h5>
+                            <h5>2015年软件自由日活动现场</h5>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="<%- url_for('assets/imgs/slides/slide3.jpg') %>" alt="apache">
+                        <img class="img-responsive center-block" src="<%- url_for('assets/imgs/slides/slide3.jpg') %>" alt="apache">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>2015年Apache路演</h5>
                         </div>
@@ -43,7 +43,7 @@
     <div class="row mb-4">
         <div class="col-md-4 col-sm-4">
             <div class="pb-2">
-                <h4><i class="fas fa-comment-alt text-info"></i> <span>最新消息</span></h4>
+                <h4><i class="fas fa-comment-alt text-info"></i> <span>Messages</span></h4>
             </div>
             <div>
                 <%- partial('_partial/archive-min') %>
@@ -51,7 +51,7 @@
         </div>
         <div class="col-md-4 col-sm-4">
             <div class="pb-2">
-                <h4><i class="fab fa-elementor text-success"></i> <span>最新活动</span></h4>
+                <h4><i class="fab fa-elementor text-success"></i> <span>Events</span></h4>
             </div>
             <div>
                 <%- partial('_partial/events-min', {events: site.events}) %>
@@ -59,7 +59,7 @@
         </div>
         <div class="col-md-4 col-sm-4">
             <div class="pb-2">
-                <h4><i class="fas fa-box-open text-primary"></i> <span>最新项目</span></h4>
+                <h4><i class="fas fa-box-open text-primary"></i> <span>Projects</span></h4>
             </div>
             <div>
                 <%- partial('_partial/projects-min', {projects: site.projects}) %>
