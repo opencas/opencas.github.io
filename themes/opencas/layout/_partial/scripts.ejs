@@ -13,7 +13,7 @@ $(document).ready(function() {
     $.each($('.event .time'), function (index, time) {
         var time = $(this).attr('datetime');
         var badge = $(this).parents('.event').find('.badge');
-        if (Date.parse(time) > new Date()) {
+        if (Date.parse(time) > new Date().getTime()) {
             badge.text("Upcoming");
             badge.addClass('badge-success');
         } else {
@@ -23,8 +23,8 @@ $(document).ready(function() {
     });
     $.each($('.events-list .time'), function (index, time) {
         var time = $(this).attr('datetime');
-        var badge = $(this).parents('.events-list').find('.badge');
-        if (Date.parse(time) > new Date()) {
+        var badge = $(this).parents('li').find('.badge');
+        if (Date.parse(time) > new Date().getTime()) {
             badge.text("Upcoming");
             badge.addClass('badge-success');
         } else {

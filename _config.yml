@@ -46,7 +46,7 @@ qqgroup: https://jq.qq.com/?_wv=1027&k=5xStlqg
  
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost:4000 # https://www.opencas.org
+url: https://www.opencas.org
 root: /
 permalink: messages/:year/:month/:day/:title/
 permalink_defaults:
