@@ -4,8 +4,8 @@
 
 # Site
 title: 中国科学院开源软件协会 OpenCAS
-subtitle: 中国科学院开源软件协会 OpenCAS
-description: Official site of OpenCAS, OpenCAS Mirrors
+subtitle: Open-source Community at Chinese Academy of Sciences (OpenCAS)
+description: Official site of OpenCAS, OpenCAS Mirrors.
 author: OpenCAS
 language: zh
 timezone: Asia/Shanghai
@@ -15,13 +15,11 @@ menu:
   HOME: /
   MESSAGES: /messages/
   EVENTS: /events/
-  PROJECTS: /projects/
   ABOUT: /about/
-  MIRRORS: "//mirrors.ucas.ac.cn"
+  MIRRORS: "//mirrors.ucas.ac.cn/"
 
 types:
   - events
-  - projects
 
 mypage:
   /about/: about

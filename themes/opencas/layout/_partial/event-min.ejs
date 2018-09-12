@@ -1,6 +1,6 @@
 <li>
   <% if (event.title) { %>
-  <a href="/events/#<%- url_for(event.ref).slice(1) %>"><%= event.title %></a>
+  <a href="/events/<%- url_for(event.ref).slice(1) %>.html"><%= event.title %></a>
   <small>
     <span class="badge"></span>
   </small>
