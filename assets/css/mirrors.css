@@ -1,0 +1,183 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.img-fluid {
+  max-height: 80px;
+}
+
+::-moz-selection {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+::selection {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #17a2b8;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #17a2b8;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #17a2b8;
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+@media (max-width: 1199px) {
+  .navbar-collapse {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    padding-left: 30px;
+  }
+}
+
+.header-content h1 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.15em;
+  margin-bottom: 20px;
+}
+
+.header-content p {
+  margin-bottom: 60px;
+  font-size: 16px;
+}
+
+@media (max-width: 1199px) {
+  .header-content p {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-content p {
+    margin-bottom: 10px;
+  }
+}
+
+.sidebar div {
+  margin-bottom: 25px;
+}
+
+.title {
+  color: #17a2b8;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+  color: #000;
+}
+
+nav>.active {
+  color: #17a2b8;
+}
+
+li a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+  color: #17a2b8;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.5em;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.table td,
+.table th {
+  padding: 0.4rem;
+  border-top: none;
+}
+
+.fa-circle {
+  font-size: 12px;
+}
+
+footer {
+  color: #d0d0d0;
+}
+
+footer a {
+  color: #d0d0d0;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+  outline: 0;
+  color: #f0f0f0;
+}
+
+.footer-text {
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+.pre-footer {
+  margin-top: 20px;
+  padding: 30px 0 15px 0;
+  background: #313030;
+}
+
+.deeper-footer {
+  background: #272626;
+  font-size: 12px;
+  padding: 15px 0;
+}
+
+.social-footer {
+  font-size: 18px;
+}
