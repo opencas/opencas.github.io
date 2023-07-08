@@ -1,9 +1,7 @@
 <div class="row events-list">
   <ul class="index-list list-unstyled">
-    <% if (events !== undefined && events.length){ %>
-      <% events.slice(0, 10).forEach(function(event){ %>
-        <%- partial('event-min', {event: event}) %>
-      <% }) %>
-    <% } %>
+    <% site.pages.filter((page) => page.layout == 'events').slice(0,10).forEach(function(event){ %>
+      <%- partial('event-min', {event: event}) %>                                                                                  
+    <% }) %>
 </ul>
 </div>

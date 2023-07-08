@@ -16,7 +16,7 @@ menu:
   MESSAGES: /messages/
   EVENTS: /events/
   ABOUT: /about/
-  MIRRORS: "//mirrors.ucas.ac.cn/"
+  MIRRORS: "https://mirror.iscas.ac.cn/"
 
 types:
   - events

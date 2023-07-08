@@ -1,10 +1,10 @@
 title: OpenCAS镜像任务管理与监控平台
 ref: mirrors-monitor
-status: Open
+status: closed
 language: N/A
 version: N/A
 author: Tridays
-time: 2017-10-19
+time: 2017/10/19
 url: https://github.com/opencas/mirrord
 issue: https://github.com/opencas/mirrord/issues
 layout: projects

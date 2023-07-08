@@ -3,10 +3,10 @@
     <div class="container">
       <div class="row d-flex align-items-center">
         <div class="col-lg-8">
-          <p class="footer-text"><%- theme.about %></p>
+          <p class="footer-text"><%- config.about %></p>
         </div>
         <div class="col-lg-4 text-center">
-          <img src="//user-images.githubusercontent.com/5724214/45487570-50e31380-b791-11e8-8809-86e409a829d1.png" style="max-height: 180px" />
+          <img src="/assets/imgs/logo_white.png" style="max-height: 180px" />
         </div>
       </div>
     </div>
@@ -15,7 +15,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8" style="padding-top: 5px;">
-          Copyright &copy; <%= date(new Date(), 'YYYY') %> <%= config.author %> | <a href="http://www.miitbeian.gov.cn/">京ICP备09112257号-87</a> | <a href="https://github.com/opencas/opencas.github.io">本站源码</a>
+          Copyright &copy; <%= date(new Date(), 'YYYY') %> <%= config.author %> | <a href="https://github.com/opencas/opencas.github.io">本站源码</a>
         </div>
         <%- partial('_partial/social') %>
       </div>

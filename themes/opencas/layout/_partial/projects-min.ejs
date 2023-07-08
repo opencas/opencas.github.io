@@ -1,9 +1,7 @@
 <div class="row">
   <ul class="index-list list-unstyled">
-    <% if (projects !== undefined && projects.length){ %>
-      <% projects.slice(0, 10).forEach(function(project){ %>
-        <%- partial('project-min', {project: project}) %>
-      <% }) %>
-    <% } %>
+    <% site.pages.filter((page) => page.layout == 'projects').slice(0,10).forEach(function(project){ %>
+      <%- partial('project-min', {project: project}) %>                                                                                  
+    <% }) %>
 </ul>
 </div>

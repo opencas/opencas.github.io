@@ -1,10 +1,10 @@
 title: OpenCAS信息助手
 ref: wxinfo
-status: Open
+status: closed
 language: JavaScript
 version: 0.1.170909
 author: Mingyi
-time: 2017-09-09
+time: 2017/09/09
 url: https://github.com/opencas/wxInfoHelper
 issue: https://github.com/opencas/wxInfoHelper/issues
 layout: projects

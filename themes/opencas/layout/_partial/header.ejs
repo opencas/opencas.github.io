@@ -1,16 +1,16 @@
 <header class="container" style="padding: 20px 0;">
     <nav class="navbar navbar-light navbar-expand-lg justify-content-between">
         <a class="navbar-brand" href="/">
-            <img src="//user-images.githubusercontent.com/5724214/45487582-5b051200-b791-11e8-8228-3bbfd3dd2650.png" alt="logo" class="img-fluid" />
+            <img src="/assets/imgs/main_logo.png" alt="logo" class="img-fluid" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto">
-                <% for (var i in theme.menu) { %>
-                  <li class="nav-item <%= url_for(theme.menu[i]) == (url_for(path).lastIndexOf('/') == url_for(path).indexOf('/') ? '/' : url_for(path).substring(0, url_for(path).split('/', 2).join('/').length + 1)) ? 'active' : '' %>">
-                      <a class="nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+                <% for (var i in config.menu) { %>
+                  <li class="nav-item <%= url_for(config.menu[i]) == (url_for(path).lastIndexOf('/') == url_for(path).indexOf('/') ? '/' : url_for(path).substring(0, url_for(path).split('/', 2).join('/').length + 1)) ? 'active' : '' %>">
+                      <a class="nav-link" href="<%- url_for(config.menu[i]) %>"><%= i %></a>
                   </li>
                 <% } %>
             </ul>

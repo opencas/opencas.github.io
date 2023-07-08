@@ -24,9 +24,9 @@
         <div class="article-entry" itemprop="articleBody">
           <% if (post.excerpt && index){ %>
           <%- post.excerpt %>
-          <% if (theme.excerpt_link){ %>
+          <% if (config.excerpt_link){ %>
           <p class="article-more-link">
-            <a href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+            <a href="<%- url_for(post.path) %>#more"><%= config.excerpt_link %></a>
           </p>
           <% } %>
           <% } else { %>

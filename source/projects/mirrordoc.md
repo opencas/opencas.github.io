@@ -1,10 +1,10 @@
 title: OpenCAS 镜像帮助文档补全计划
 ref: mirrors-doc
-status: Open
+status: closed
 language: reStructuredText
 version: 0.1Alpha
 author: OpenCAS
-time: 2017-02-08
+time: 2017/02/08
 url: https://github.com/opencas/mirrorDocs
 issue: https://github.com/opencas/mirrorDocs/issues
 layout: projects
