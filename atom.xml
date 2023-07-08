@@ -3,10 +3,10 @@
   <title>中国科学院开源软件协会 OpenCAS</title>
   <icon>https://www.gravatar.com/avatar/715ef41305a897566a7c87d22fd05163</icon>
   <subtitle>Open-source Community at Chinese Academy of Sciences (OpenCAS)</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="https://www.opencas.org/atom.xml" rel="self"/>
   
   <link href="https://www.opencas.org/"/>
-  <updated>2018-09-13T12:28:13.659Z</updated>
+  <updated>2023-07-08T14:23:21.501Z</updated>
   <id>https://www.opencas.org/</id>
   
   <author>
@@ -14,211 +14,202 @@
     <email>admin@opencas.org</email>
   </author>
   
-  <generator uri="http://hexo.io/">Hexo</generator>
+  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>2018年度社团工作总结</title>
-    <link href="https://www.opencas.org/messages/2018/07/15/2018-summary/"/>
-    <id>https://www.opencas.org/messages/2018/07/15/2018-summary/</id>
+    <link href="https://www.opencas.org/messages/2018/07/16/2018-summary/"/>
+    <id>https://www.opencas.org/messages/2018/07/16/2018-summary/</id>
     <published>2018-07-15T16:00:00.000Z</published>
-    <updated>2018-09-13T12:28:13.659Z</updated>
+    <updated>2023-07-08T14:23:21.501Z</updated>
     
-    <summary type="html">
     
       
       
-        &lt;h4 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h4&gt;
-&lt;p&gt;中国科学院开源软件协会(英文缩写：OpenCAS)创建于2006年，是由中国科学院大学研究生组成的开源技术社区。协会秉承“开放，自由，分享
+    <summary type="html">&lt;h4 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h4&gt;&lt;p&gt;中国科学院开源软件协会(英文缩写：OpenCAS)创建于2006年，是由中国科学院大学研究生组成的开源技术社区。协会秉承“开放，自由，分享”</summary>
       
     
-    </summary>
-    
-      <category term="Activity" scheme="https://www.opencas.org/messages/categories/Activity/"/>
     
     
-      <category term="工作总结" scheme="https://www.opencas.org/messages/tags/%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93/"/>
+    <category term="Activity" scheme="https://www.opencas.org/messages/categories/Activity/"/>
+    
+    
+    <category term="工作总结" scheme="https://www.opencas.org/messages/tags/%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
   <entry>
     <title>Gnome3.2 发布聚会</title>
-    <link href="https://www.opencas.org/messages/2016/03/27/gnome-party/"/>
-    <id>https://www.opencas.org/messages/2016/03/27/gnome-party/</id>
+    <link href="https://www.opencas.org/messages/2016/03/28/gnome-party/"/>
+    <id>https://www.opencas.org/messages/2016/03/28/gnome-party/</id>
     <published>2016-03-27T16:00:00.000Z</published>
-    <updated>2018-09-13T12:28:13.667Z</updated>
+    <updated>2023-07-08T14:23:21.509Z</updated>
     
-    <summary type="html">
     
       
       
-        &lt;p&gt;爽朗的周日下午，从北京的四面八方赶来，有学生，有老师，有开发者，有老用户。14点，活动准时开始&lt;br&gt;首先，Gnome社区的李彬为大家介绍了Gnome3.2版本的新特性，并介绍了Gnome，KDE，Unity这些桌面环境的区别于历史渊源&lt;br&gt;&lt;img src=&quot;/mess
+    <summary type="html">&lt;p&gt;爽朗的周日下午，从北京的四面八方赶来，有学生，有老师，有开发者，有老用户。14点，活动准时开始&lt;br&gt;首先，Gnome社区的李彬为大家介绍了Gnome3.2版本的新特性，并介绍了Gnome，KDE，Unity这些桌面环境的区别于历史渊源&lt;br&gt;&lt;img src=&quot;/mess</summary>
       
     
-    </summary>
-    
-      <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
     
-      <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
-      <category term="Gnome" scheme="https://www.opencas.org/messages/tags/Gnome/"/>
+    
+    <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="Gnome" scheme="https://www.opencas.org/messages/tags/Gnome/"/>
     
   </entry>
   
   <entry>
     <title>第二届『样机折腾计划』</title>
-    <link href="https://www.opencas.org/messages/2016/01/22/2017-recruit/"/>
-    <id>https://www.opencas.org/messages/2016/01/22/2017-recruit/</id>
+    <link href="https://www.opencas.org/messages/2016/01/23/2017-recruit/"/>
+    <id>https://www.opencas.org/messages/2016/01/23/2017-recruit/</id>
     <published>2016-01-22T16:00:00.000Z</published>
-    <updated>2018-09-13T12:28:13.659Z</updated>
+    <updated>2023-07-08T14:23:21.500Z</updated>
     
-    <summary type="html">
     
       
       
-        &lt;p&gt;&lt;img src=&quot;/messages/2016/01/22/2017-recruit/ls-salt-plan.png&quot; alt=&quot;ls-salt-plan&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;活动介绍&quot;&gt;&lt;a href=&quot;#活动介绍&quot; class=&quot;headerlink&quot; ti
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/messages/2016/01/23/2017-recruit/ls-salt-plan.png&quot; alt=&quot;ls-salt-plan&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;活动介绍&quot;&gt;&lt;a href=&quot;#活动介绍&quot; class=&quot;headerlink&quot; ti</summary>
       
     
-    </summary>
-    
-      <category term="Activity" scheme="https://www.opencas.org/messages/categories/Activity/"/>
     
     
-      <category term="试用" scheme="https://www.opencas.org/messages/tags/%E8%AF%95%E7%94%A8/"/>
+    <category term="Activity" scheme="https://www.opencas.org/messages/categories/Activity/"/>
     
-      <category term="笔记本" scheme="https://www.opencas.org/messages/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/"/>
     
-      <category term="硬件" scheme="https://www.opencas.org/messages/tags/%E7%A1%AC%E4%BB%B6/"/>
+    <category term="试用" scheme="https://www.opencas.org/messages/tags/%E8%AF%95%E7%94%A8/"/>
+    
+    <category term="笔记本" scheme="https://www.opencas.org/messages/tags/%E7%AC%94%E8%AE%B0%E6%9C%AC/"/>
+    
+    <category term="硬件" scheme="https://www.opencas.org/messages/tags/%E7%A1%AC%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>中科院第二期『开源论坛』成功举办</title>
-    <link href="https://www.opencas.org/messages/2015/11/29/opensource-form2/"/>
-    <id>https://www.opencas.org/messages/2015/11/29/opensource-form2/</id>
+    <link href="https://www.opencas.org/messages/2015/11/30/opensource-form2/"/>
+    <id>https://www.opencas.org/messages/2015/11/30/opensource-form2/</id>
     <published>2015-11-29T16:00:00.000Z</published>
-    <updated>2018-09-13T12:28:13.671Z</updated>
+    <updated>2023-07-08T14:23:21.517Z</updated>
     
-    <summary type="html">
     
       
       
-        &lt;p&gt;2015年11月29日，开源协会在学园二448教室举办了技术交流互动，分享者主要有杨勇鹏和陈立国，2位成员的分享十分精彩，大家也认真学习并讨论。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/messages/2015/11/29/opensource-form2/of2-1.png
+    <summary type="html">&lt;p&gt;2015年11月29日，开源协会在学园二448教室举办了技术交流互动，分享者主要有杨勇鹏和陈立国，2位成员的分享十分精彩，大家也认真学习并讨论。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/messages/2015/11/30/opensource-form2/of2-1.png</summary>
       
     
-    </summary>
-    
-      <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
     
-      <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
-      <category term="开源论坛" scheme="https://www.opencas.org/messages/tags/%E5%BC%80%E6%BA%90%E8%AE%BA%E5%9D%9B/"/>
+    
+    <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="开源论坛" scheme="https://www.opencas.org/messages/tags/%E5%BC%80%E6%BA%90%E8%AE%BA%E5%9D%9B/"/>
     
   </entry>
   
   <entry>
     <title>2015 HelloGcc 活动成功举办</title>
-    <link href="https://www.opencas.org/messages/2015/11/22/2015-hellgcc/"/>
-    <id>https://www.opencas.org/messages/2015/11/22/2015-hellgcc/</id>
+    <link href="https://www.opencas.org/messages/2015/11/23/2015-hellgcc/"/>
+    <id>https://www.opencas.org/messages/2015/11/23/2015-hellgcc/</id>
     <published>2015-11-22T16:00:00.000Z</published>
-    <updated>2018-09-13T12:28:13.643Z</updated>
+    <updated>2023-07-08T14:23:21.484Z</updated>
     
-    <summary type="html">
     
       
       
-        &lt;p&gt;小雨夹着点雪&lt;br&gt;大家从各地陆陆续续的赶来&lt;br&gt;小会场&lt;br&gt;不过，氛围很好，聊的很热闹&lt;br&gt;不觉天色已晚&lt;br&gt;江湖人谈江湖事，以茶代酒风波庄&lt;br&gt;——&lt;a href=&quot;http://www.hellogcc.org/?p=34219&quot; target=&quot;_blan
+    <summary type="html">&lt;p&gt;小雨夹着点雪&lt;br&gt;大家从各地陆陆续续的赶来&lt;br&gt;小会场&lt;br&gt;不过，氛围很好，聊的很热闹&lt;br&gt;不觉天色已晚&lt;br&gt;江湖人谈江湖事，以茶代酒风波庄&lt;br&gt;——&lt;a href=&quot;http://www.hellogcc.org/?p=34219&quot;&gt;引自HelloGcc Si</summary>
       
     
-    </summary>
-    
-      <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
     
-      <category term="HelloGcc" scheme="https://www.opencas.org/messages/tags/HelloGcc/"/>
+    <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
-      <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="HelloGcc" scheme="https://www.opencas.org/messages/tags/HelloGcc/"/>
+    
+    <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
   <entry>
     <title>中科院第一期『开源论坛』成功举办</title>
-    <link href="https://www.opencas.org/messages/2015/11/11/opensource-forum/"/>
-    <id>https://www.opencas.org/messages/2015/11/11/opensource-forum/</id>
+    <link href="https://www.opencas.org/messages/2015/11/12/opensource-forum/"/>
+    <id>https://www.opencas.org/messages/2015/11/12/opensource-forum/</id>
     <published>2015-11-11T16:00:00.000Z</published>
-    <updated>2018-09-13T12:28:13.683Z</updated>
+    <updated>2023-07-08T14:23:21.531Z</updated>
     
-    <summary type="html">
     
       
       
-        &lt;p&gt;2015年11月8日13点—17点中科院开源软件协会OpenCAS在中科院雁栖湖校区开展了项目和技术交流活动。&lt;br&gt;首先，丁磊师兄简单介绍了此次交流活动的大致流程。并且，还介绍了这次活动邀请的北京Linux用户（BLUG）的主席Martin，和半导体所研三的黄涌师兄。&lt;b
+    <summary type="html">&lt;p&gt;2015年11月8日13点—17点中科院开源软件协会OpenCAS在中科院雁栖湖校区开展了项目和技术交流活动。&lt;br&gt;首先，丁磊师兄简单介绍了此次交流活动的大致流程。并且，还介绍了这次活动邀请的北京Linux用户（BLUG）的主席Martin，和半导体所研三的黄涌师兄。&lt;b</summary>
       
     
-    </summary>
-    
-      <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
     
-      <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
-      <category term="开源论坛" scheme="https://www.opencas.org/messages/tags/%E5%BC%80%E6%BA%90%E8%AE%BA%E5%9D%9B/"/>
+    
+    <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="开源论坛" scheme="https://www.opencas.org/messages/tags/%E5%BC%80%E6%BA%90%E8%AE%BA%E5%9D%9B/"/>
     
   </entry>
   
   <entry>
     <title>2015 Apache RodeShow成功举办</title>
-    <link href="https://www.opencas.org/messages/2015/10/25/apache-rodeshow/"/>
-    <id>https://www.opencas.org/messages/2015/10/25/apache-rodeshow/</id>
+    <link href="https://www.opencas.org/messages/2015/10/26/apache-rodeshow/"/>
+    <id>https://www.opencas.org/messages/2015/10/26/apache-rodeshow/</id>
     <published>2015-10-25T16:00:00.000Z</published>
-    <updated>2018-09-13T12:28:13.659Z</updated>
+    <updated>2023-07-08T14:23:21.501Z</updated>
     
-    <summary type="html">
     
       
       
-        &lt;p&gt;在中科院开源软件协会与开源社的精心准备与组织下，2015阿帕奇路演-中国（Apache Roadshow 2015 - China)在2015年10月25日圆满收官。&lt;/p&gt;
-&lt;p&gt;全球最大的开源软件基金会 Apache Software Foundation（简称ASF-
+    <summary type="html">&lt;p&gt;在中科院开源软件协会与开源社的精心准备与组织下，2015阿帕奇路演-中国（Apache Roadshow 2015 - China)在2015年10月25日圆满收官。&lt;/p&gt;
+&lt;p&gt;全球最大的开源软件基金会 Apache Software Foundation（简称ASF-</summary>
       
     
-    </summary>
-    
-      <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
     
-      <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
-      <category term="Apache" scheme="https://www.opencas.org/messages/tags/Apache/"/>
     
-      <category term="路演" scheme="https://www.opencas.org/messages/tags/%E8%B7%AF%E6%BC%94/"/>
+    <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="Apache" scheme="https://www.opencas.org/messages/tags/Apache/"/>
+    
+    <category term="路演" scheme="https://www.opencas.org/messages/tags/%E8%B7%AF%E6%BC%94/"/>
     
   </entry>
   
   <entry>
     <title>2015软件自由日(SFD)中科院站活动成功举办</title>
-    <link href="https://www.opencas.org/messages/2015/09/21/2015-sfd/"/>
-    <id>https://www.opencas.org/messages/2015/09/21/2015-sfd/</id>
+    <link href="https://www.opencas.org/messages/2015/09/22/2015-sfd/"/>
+    <id>https://www.opencas.org/messages/2015/09/22/2015-sfd/</id>
     <published>2015-09-21T16:00:00.000Z</published>
-    <updated>2018-09-13T12:28:13.643Z</updated>
+    <updated>2023-07-08T14:23:21.485Z</updated>
     
-    <summary type="html">
     
       
       
-        &lt;p&gt;9月19日下午，软件自由日中国科学院站活动在美丽的中国科学院大学雁栖湖校区举顺利举办！本次活动邀请到了GitCafe工程师周融，Acer集团公关经理闻其祥等重量级嘉宾。分别为大家介绍《企业中的Git工作流经验》，《零基础谈恋爱之 我和开源的开始》等精彩内容。活动吸引了很多中
+    <summary type="html">&lt;p&gt;9月19日下午，软件自由日中国科学院站活动在美丽的中国科学院大学雁栖湖校区举顺利举办！本次活动邀请到了GitCafe工程师周融，Acer集团公关经理闻其祥等重量级嘉宾。分别为大家介绍《企业中的Git工作流经验》，《零基础谈恋爱之 我和开源的开始》等精彩内容。活动吸引了很多中</summary>
       
     
-    </summary>
-    
-      <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
     
-      <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    <category term="Event" scheme="https://www.opencas.org/messages/categories/Event/"/>
     
-      <category term="SFD" scheme="https://www.opencas.org/messages/tags/SFD/"/>
+    
+    <category term="分享" scheme="https://www.opencas.org/messages/tags/%E5%88%86%E4%BA%AB/"/>
+    
+    <category term="SFD" scheme="https://www.opencas.org/messages/tags/SFD/"/>
     
   </entry>
   
